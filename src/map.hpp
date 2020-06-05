@@ -29,7 +29,10 @@ class Map
         
         ///Operators
 
+        Map& operator=(const Map& old);
+
     private:
         char* tiles;//array to hold all the data on the map
-        int length, width;//
+        int length;//Length property of map
+        int width;//Width property of map
 };
